@@ -1,0 +1,26 @@
+.table {
+  @apply table-fixed  text-base text-gray-900;
+}
+
+.thead {
+  @apply p-2;
+}
+
+.tr {
+  @apply border border-green-500;
+}
+
+.th {
+  @apply border border-green-500 p-2 uppercase;
+}
+
+.tbody {
+}
+
+.td {
+  @apply border border-green-500 p-5 capitalize text-center;
+}
+
+.button {
+  @apply px-4 py-2 text-black rounded-md bg-green-300 hover:bg-green-200 transition-colors;
+}

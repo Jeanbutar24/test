@@ -1,0 +1,62 @@
+const data = useMemo(
+    () => [
+      {
+        deuDate: {
+          startDate: '2023-02-10',
+        },
+        _id: '647a2624210233a436bdbb44',
+        name: 'hasael butar butar',
+        status: 'contract',
+        divisi: 'kantor',
+        active: true,
+        createdAt: '2023-06-02T17:25:56.068Z',
+        updatedAt: '2023-06-02T17:25:56.068Z',
+        __v: 0,
+      },
+      {
+        deuDate: {
+          startDate: '2023-04-01',
+        },
+        _id: '647a2641210233a436bdbb46',
+        name: 'jean butar butar',
+        status: 'permanent',
+        divisi: 'supir',
+        active: true,
+        createdAt: '2023-06-02T17:26:25.762Z',
+        updatedAt: '2023-06-02T17:26:25.762Z',
+        __v: 0,
+      },
+      {
+        deuDate: {
+          startDate: '2023-01-05',
+        },
+        _id: '647a26a1210233a436bdbb48',
+        name: 'regianty cahyani',
+        status: 'contract',
+        divisi: 'kantor',
+        active: false,
+        createdAt: '2023-06-02T17:28:01.405Z',
+        updatedAt: '2023-06-02T17:28:01.405Z',
+        __v: 0,
+      },
+    ],
+    []
+  );
+
+  const columns = useMemo(
+    () => [
+      {
+        Header: 'Status',
+        accessor: 'status',
+      },
+      {
+        Header: 'Name',
+        accessor: 'name',
+      },
+      {
+        Header: 'Divisi',
+        accessor: 'divisi',
+      },
+    ],
+    []
+  );
